@@ -12,7 +12,7 @@ class CreateTranslationsTable extends Migration {
 	 */
 	public function up()
 	{
-        Schema::create('ltm_translations', function(Blueprint $table)
+        Schema::create('translations', function(Blueprint $table)
         {
 	    $table->collation = 'utf8mb4_bin';
             $table->bigIncrements('id');
